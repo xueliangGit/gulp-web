@@ -1,7 +1,7 @@
 ## 基于gulp搭建的前端自动化构建
 
 **适用于中小型项目，快速构建前端项目框架。比如运营活动页，官网类，简单移动端项目，小demo测试等**
-
+## 已经添加docker
 ## 项目启动
 ```
 // 常用命令
@@ -15,6 +15,7 @@
 编译样式： gulp styles
 语法检测： gulp eslint
 压缩图片： gulp images
+初始化项目： gulp init
 ```
 
 ## [项目地址](https://github.com/vincentSea/gulp-cli)
