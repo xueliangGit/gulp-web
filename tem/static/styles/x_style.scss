@@ -1,0 +1,19 @@
+.w100{
+  width: 100%;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+
+.row::after{
+  content:'';
+  display: block;
+  float: none;
+  height: 0;
+  width: 0;
+}
+
+// @import 'bignav.scss'

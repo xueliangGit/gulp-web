@@ -1,0 +1,354 @@
+@@include('tophead.html',{
+  "title":"首页",
+  "bodyClass":""
+})
+    @@include('header.html', {
+      "active": "HOME"
+    })
+    <!-- <img src="./static/images/gulp.png" /> -->
+    <div class="banner">
+      <div class="swier">
+          <div class="swiper-container">
+              <div class="swiper-wrapper">
+                  <div class="swiper-slide" style="background-image:url(./static/images/banner.jpg)">
+                    <div class="in block-center">
+                      <img src="./static/images/banner-w-1.png" alt="" class="wz-1 wz">
+                      <img src="./static/images/banner-w-2.png" alt="" class="wz-2 wz">
+                      <img src="./static/images/banner-w-3.png" alt="" class="wz-3 wz">
+                      <img src="./static/images/banner-w-4.png" alt="" class="wz-4 wz">
+                      <div class="buttons fs-14">
+                        <a href="./work.html" class="button ts">查看案例</a>
+                        <a class="lianxishangwu button ts">立即沟通</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide" style="background-image:url(./static/images/banner1-1.jpg)">
+                    <div class="in block-center">
+                      <img src="./static/images/b-w-2.png" alt="" class="wz-1 wz">
+                      <!-- <img src="./static/images/banner-w-2.png" alt="" class="wz-2 wz">
+                      <img src="./static/images/banner-w-3.png" alt="" class="wz-3 wz">
+                      <img src="./static/images/banner-w-4.png" alt="" class="wz-4 wz"> -->
+                      <div class="buttons fs-14">
+                        <a href="./work.html" class="button ts">查看案例</a>
+                        <a class="lianxishangwu button ts">立即沟通</a>
+                      </div>
+                    </div>
+                  </div>
+                  
+              </div>
+              <!-- index -->
+              <div class="index-con tac fs-24">
+                <span id='index'>1</span>/<span id=all>4</span>
+              </div>
+              <!-- 如果需要分页器 -->
+              <div class="swiper-pagination"></div>
+              
+              <!-- 如果需要导航按钮 -->
+              <!-- <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div> -->
+              <div class="mouse">
+                <img src="./static/images/mouse.png" alt="">
+              </div>
+              <!-- 如果需要滚动条 -->
+              <!-- <div class="swiper-scrollbar"></div> -->
+              <div class="aside-left poa">
+                <a href="">
+                  <img src="./static/images/10year.png" alt="">
+                </a>
+              </div>
+          </div>
+      </div>
+    </div>
+    <!-- who -->
+    <div class="who">
+        <img class="subtitle" src="./static/images/who.png" alt="">
+        <ul class="who-l row w1400">
+          <li class="col-8 tsj sloth slideInUp col-mob-24">
+            <div class="in ">
+                <h3>Introduction</h3>
+                <p>北京新思络科技有限公司是2018年新成立的“新思络”互联网开发品牌（新：创新、进取、蜕变，思：思想、态度、责任， 络：网络技术、网络人才、网络实现），创始团队拥有丰富的互联网开发经验。</p>
+            </div>
+          </li>
+          <li class="col-8 tsj sloth slideInUp col-mob-24">
+            <div class="in ">
+                <h3>purpose</h3>
+                <p>服务综旨：以快速的需求反应、严谨的开发流程和细致的客户服务，为企业客户提供全方位专业的移动应用（APP、微信）开发、企业软件定制与企业信息系统建设等服务。</p>
+            </div>
+          </li>
+          <li class="col-8 tsj sloth slideInUp col-mob-24">
+            <div class="in ">
+                <h3>field</h3>
+                <p>行业涉及：视频直播、商城、教育、o2o服务、社交、智能硬件、智能家居、智能社区、移动办公、新闻、物流、社交、汽车、旅游、酒店宾馆、金融、餐饮、房地产等多行业领域。</p>
+            </div>
+          </li>
+        </ul>
+        <div class="buttons">
+          <a href="./about.html" class="button ts">
+              了解更多
+          </a>
+        </div>
+    </div>
+    <!-- service -->
+    <div class="service">
+      <img class="subtitle" src="./static//images/service.png" alt="">
+      <p class="destitle tac">与客户深度讨论交流需求分析，从不同的角度思考细化项目需求，制定一个最佳的解决方案</p>
+      <ul class="row service-l taj fs-14 w1400">
+        <li class="col-4 col-mob-12 sloth slideInUp">
+          <div class="in">
+            <div class="icon-c"> 
+              <img src="./static/images/app.png" alt="" class="icon">
+              <img src="./static/images/app-a.png" alt="" class="poa">
+              </div>
+            <h3>移动APP</h3>
+            <p>Moblie app</p>
+            <div class="desinfo">
+              专注于高端型IOS系统/Android系统开发，提供电商类、教育类、金融类、医疗类、游戏类等优质的一站式APP咨询、策划、APP定制开发服务。
+            </div>
+          </div>
+        </li>
+        <li class="col-4 col-mob-12 sloth slideInUp">
+          <div class="in">
+            <div class="icon-c"> 
+              <img src="./static/images/wechat.png" alt="" class="icon">
+              <img src="./static/images/wechat-a.png" alt="" class="poa">
+              </div>
+            <h3>微信开发</h3>
+            <p>Wechat</p>
+            <div class="desinfo">
+              公众号定制/H5场景开发，搭建企业独立微信公众号功能，助力企业畅享微信流量红利
+            </div>
+          </div>
+        </li>
+        <li class="col-4 col-mob-12 sloth slideInUp">
+          <div class="in">
+            <div class="icon-c"> <img src="./static/images/pc.png" alt="" class="icon">
+              <img src="./static/images/pc-a.png" alt="" class="poa">
+
+              </div>
+            <h3>网站建设</h3>
+            <p>Website service</p>
+            <div class="desinfo">
+              资深开发团队为客户提供一对一的个性化设计、策划、前端、程序开发等全方位服务，打造独一无二的高品质网站
+            </div>
+          </div>
+        </li>
+        <li class="col-4 col-mob-12 sloth slideInUp">
+          <div class="in">
+            <div class="icon-c"> <img src="./static/images/h5.png" alt="" class="icon">
+              <img src="./static/images/h5-a.png" alt="" class="poa">
+
+              </div>
+            <h3>H5小程序</h3>
+            <p>H5 Applets</p>
+            <div class="desinfo">
+              微信/支付宝等各大平台小程序/公众号定制/H5场景开发，搭建企业独立小程序，助力企业畅享小程序流量红利
+            </div>
+          </div>
+        </li>
+        <li class="col-4 col-mob-12 sloth slideInUp">
+          <div class="in">
+            <div class="icon-c"> <img src="./static/images/des.png" alt="" class="icon">
+              <img src="./static/images/des-a.png" alt="" class="poa">
+
+              </div>
+            <h3>视觉设计</h3>
+            <p>Visual design</p>
+            <div class="desinfo">
+              优秀设计团队为客户提供优质的创意设计策划服务，包括：LOGO、VIS、品牌设计等
+            </div>
+          </div>
+        </li>
+        <li class="col-4 col-mob-12 sloth slideInUp">
+          <div class="in">
+            <div class="icon-c"> <img src="./static/images/mv.png" alt="" class="icon">
+              <img src="./static/images/mv-a.png" alt="" class="poa">
+              </div>
+            <h3>动画视频</h3>
+            <p>Animated video</p>
+            <div class="desinfo">
+              提供专业 VR全景  MG动画  三维动画  CG动画  手绘动画
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- process -->
+    <div class="process bk-c">
+      <img src="./static/images/process.png" alt="" class="subtitle">
+      <p class="destitle tac">
+          与客户深度讨论交流需求分析，从不同的角度思考细化项目需求，制定一个最佳的解决方案
+      </p>
+      <ul class="process-l row w1400">
+        <li class="col-20-4 col-mob-24 sloth slideInUp">
+          <div class="in">
+            <div class="topblock tac">
+                <h3 class="fs-18 ">需求沟通</h3>
+                <p class="fs-14">倾听客户需求，了解需求和操作系统。</p>
+            </div>
+          </div>
+        </li>
+        <li class="col-20-4 col-mob-24 sloth slideInUp">
+          <div class="in">
+            <div class="topblock tac">
+                <h3 class="fs-18 ">视觉设计</h3>
+                <p class="fs-14">色彩及平面元素设定，结构和布局确认</p>
+            </div>
+          </div>
+        </li>
+        <li class="col-20-4 col-mob-24 sloth slideInUp">
+          <div class="in">
+            <div class="topblock tac">
+                <h3 class="fs-18 ">前端制作</h3>
+                <p class="fs-14">CSS，JS，HTML5实现页面动态展示</p>
+            </div>
+          </div>
+        </li>
+        <li class="col-20-4 col-mob-24 sloth slideInUp">
+          <div class="in">
+            <div class="topblock tac">
+                <h3 class="fs-18 ">技术开发</h3>
+                <p class="fs-14">移动应用对接和开发</p>
+            </div>
+          </div>
+        </li>
+        <li class="col-20-4 col-mob-24 sloth slideInUp">
+          <div class="in">
+            <div class="topblock tac">
+                <h3 class="fs-18 ">测试反馈</h3>
+                <p class="fs-14">修改调整，开发文档细化</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <div class="line-h por w1400">
+        <div class="con fs-14">
+          <ul>
+            <li class="start list">
+              <div class="in poa tac">
+                客户<br>
+                来访
+              </div>
+            </li>
+            <li class=" list ">
+              <div class="in poa port">
+                <p class="bottom-text">需求沟通</p>
+              </div>
+            </li>
+            <li class=" list ">
+              <div class="poa in port">
+                  <p>用户体验</p>
+                  <p> 品牌分析</p>
+                  <p>  行业分析</p>
+                  <p>  渠道分析</p>
+                  <p class="bottom-text">需求方案</p>
+              </div>
+            </li>
+            <li class=" list ">
+              <div class="poa in port">
+                  <p>难度评估</p>
+                  <p> 人员评估</p>
+                  <p>  需时间评估</p>
+                  <p>  费用评估</p>
+                  <p>  是否立项</p>
+                  <p class="bottom-text">需求内部
+                      评审</p>
+              </div>
+            </li>
+            <li class=" list ">
+              <div class="in poa port">
+                <p class="bottom-text">立项</p>
+              </div>
+            </li>
+            <li class=" list ">
+              <div class="in poa port">
+                <p class="bottom-text">签订合同</p>
+              </div>
+            </li>
+            <li class=" list ">
+              <div class="in poa port">
+                <p class="bottom-text">项目启动</p>
+              </div>
+            </li>
+            <li class=" list ">
+              <div class="in poa port">
+                <p>修改</p>
+                <p>确认</p>
+                <p class="bottom-text">UI设计</p>
+              </div>
+            </li>
+            <li class=" list ">
+              <div class="in poa port">
+                <p>页面嵌套</p>
+                <p>浏览器兼容性</p>
+                <p>测试</p>
+                <p class="bottom-text">前端</p>
+              </div>
+            </li>
+            <li class=" list ">
+              <div class="in poa port">
+                <p class="bottom-text">编码规范</p>
+              </div>
+            </li>
+            <li class=" list ">
+              <div class="in poa port">
+                <p>功能分析</p>
+                <p>开发准备</p>
+                <p>开发编码</p>
+                <p>系统测试</p>
+                <p>集成测试</p>
+                <p>单元测试</p>
+                <p>客户测试</p>
+                <p class="bottom-text">技术开发</p>
+              </div>
+            </li>
+            <li class=" list ">
+              <div class="in poa port">
+                <p>使用说明</p>
+                <p>源文件交付</p>
+                <p>协助上线</p>
+                <p>项目总结</p>
+                <p class="bottom-text">上线</p>
+              </div>
+            </li>
+            <li class="start end list">
+                <div class="in poa tac">
+                  END
+                </div>
+              </li>
+          </ul>
+        </div>
+        <div class="line"></div>
+      </div>
+      <div class="mob-show showingo-1200 tac fs-12 c999">左右滑动查看更多</div>
+    </div>
+    <!-- work -->
+    <div class="work bk-c">
+      <img src="./static/images/work.png" alt="" class="subtitle">
+      <p class="destitle tac">与客户深度讨论交流需求分析，从不同的角度思考细化项目需求，制定一个最佳的解决方案</p>
+      <div class="buttons">
+        <a href="./work.html" class="morework button ts">
+            查看更多案例>
+        </a>
+      </div>
+      @@include('workList.html')
+    </div>
+    <!-- news -->
+    <div class="news work bk-c">
+      <img src="./static/images/new.png" alt="" class="subtitle">
+      <p class="destitle tac">与客户深度讨论交流需求分析，从不同的角度思考细化</p>
+      <div class="buttons">
+        <a href="./news.html" class="morework button ts">
+            查看更多新闻>
+        </a>
+      </div>
+      @@include('newList.html')
+    </div>
+    <!-- coo -->
+    <div class="coo w1400">
+        <img src="./static/images/coo.png" alt="" class="subtitle">
+        <ul class="coo-l w1200 row">
+          <!-- 这里图片尺寸是186*60 -->
+            @@loop("linksLogo.html", "/data/linksLogo.json")
+        </ul>
+    </div>
+  @@include('footer.html')

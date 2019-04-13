@@ -1,0 +1,50 @@
+@@include('tophead.html',{
+  "title":"案例",
+  "bodyClass":"work-body bkf6f6f6"
+})
+    @@include('header.html', {
+      "active": "work"
+    })
+    <!-- subbanner -->
+    <div class="subbanner" >
+      <div class="bk-c por subbanner-bk" style='background-image:url(./static/images/w-b.jpg)'>
+        <div class="w1400 cfff subbanner-info tac">
+            <p class="fs-18 fb">您的企业互联网设计方案专家</p>
+            <img src="./static/images/w-1.png" alt="">
+            <p class="fs-12 fb">北京互联网建设创导品牌</p>
+        </div>
+        <div class="aside-right poa">
+          <a href="">
+            <img src="./static/images/10.png" alt="">
+          </a>
+        </div>
+        <div class="bottom poa"></div>
+      </div>
+    </div>
+    <!-- work -->
+    <div id=nav class="work-page work bk-c">
+      <div class="work-nav tac">
+        <ul class="dib work-nav-c fs-14 fb">
+          <!-- a 上加active 为当前选中态 -->
+          <li class="wnav "><a class="ts " href="#nav">移动APP</a></li>
+          <li class="wnav "><a class="ts" href="#nav">WeChat</a></li>
+          <li class="wnav "><a class="ts" href="#nav">网站建设</a></li>
+          <li class="wnav "><a class="ts" href="#nav">H5小程序</a></li>
+          <li class="wnav "><a class="ts" href="#nav">视觉设计</a></li>
+          <li class="wnav "><a class="ts" href="#nav">动画视频</a></li>
+        </ul>
+      </div>
+      @@include('workList.html',{
+        "listClass":"work-page-l"
+      })
+      <p class="fs-48 fb tac work-tip">是该做决定的时刻了!</p>
+      <p class="destitle tac">新思络希望帮更多企业节省时间做自己擅长的事情，把需求交给我们 。因为，我们就是您的技术部！</p>
+      <div class="buttons">
+          <a href="javascript:;" class="morework lianxishangwu  work-button button ts">
+              立即联系我们
+          </a>
+        </div>
+    </div>
+  @@include('footer.html',{
+    "footerClass":"subfooter"
+  })

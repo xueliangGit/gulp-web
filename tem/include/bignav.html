@@ -1,0 +1,74 @@
+<div class="bignav tac row por">
+  <div class="logo left">
+    <a class="por" href="./index.html"><img src="./static/images/logo.png" alt=""></a>
+  </div>
+  <div class="right">
+    <ul class="nav-list row fs-14 upper">
+        @@for (var i = 0; i < (list?list.length:-1); i++) {
+          <li class="`+ (active === list[i].en?"active":"") + `">
+            <a  href="` + list[i].url + `">
+              <div class="nav-blank ts"></div>
+              <div class="nav-t-c">
+                <p class="nav-t upper ts">
+                    `+list[i].en+` <br>
+                   <span class="ts"> `+list[i].cn+`</span>
+                </p>
+              </div>
+            </a>
+          </li>
+         }
+    </ul>
+  </div>
+</div>
+<div class="smallnav ts bignav @@miniClass" id='smallnav'>
+  <div class="slogo left">
+   <a href="./index.html"> <img class="normal-logo" src="../static/images/minilogo.png" alt="">
+    <img class="ser-logo" src="../static/images/ser-logo.png" alt=""></a>
+  </div>
+  <div id='mune' class="right mune ts">
+    <img src="../static/images/mune.jpg" alt="">
+  </div>
+</div>
+<div id="bignavshow" class="bignavshow pof">
+  <div class="in">
+    <div class="row">
+      <div class="left">
+        <a href="./index.html">
+          <img src="../static/images/wlogo2.png" alt="" class="wlogo">
+        </a>
+      </div>
+      <div class="right">
+        <img id=close src="../static/images/close.png" alt="" class="close">
+      </div>
+    </div>
+    <div class="navlist upper fb">
+        @@for (var i = 0; i < (list?list.length:-1); i++) {
+          <a href="` + list[i].url + `" class="fs-72 ts `+ (active === list[i].en?"active":"") + `">
+              `+list[i].en+` <span class="fs-24 ts">`+list[i].cn+`</span>
+          </a>
+        }
+    </div>
+    <div class="row nav-info mob-hide">
+      <div class="col-13 col-mob-24 row">
+        <div class="left img">
+          <img src="../static/images/ma.jpg" alt="" class="ma">
+        </div>
+        <div class="left fs-14 fb cfff">
+            <p class="t">致电我们</p>
+            <p>Tel：15810123498   </p>
+            <p>Fax：13651338108   </p>
+            <p>E-mail：1014537377@qq.com</p>
+        </div>
+      </div>
+      <div class="col-9 col-mob-24">
+        <div class=" fs-14 fb cfff">
+            <p class="t">在线洽谈合作</p>
+            <p>QQ：1014537377   </p>
+            <p>QQ：252111556   </p>
+            <p>E-mail： 252111556@qq.com</p>
+        </div>
+      </div>
+    </div>
+    <p class="copyright fs-12 cfff tac">Copyright © 2016版权所有 2009-2016 京ICP备09004940号Beijing Jollycolors VIS Solutions Co., Ltd. All rights reserved. </p>
+  </div>
+</div>

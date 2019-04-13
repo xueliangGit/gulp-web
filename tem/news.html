@@ -1,0 +1,41 @@
+@@include('tophead.html',{
+  "title":"案例",
+  "bodyClass":"work-body bkf6f6f6"
+})
+    @@include('header.html', {
+      "active": "news"
+    })
+    <!-- subbanner -->
+    <div class="subbanner" >
+      <div class="bk-c por subbanner-bk" style='background-image:url(./static/images/new-bk.jpg)'>
+        <div class="w1400 cfff subbanner-info tac">
+            <p class="fs-18 fb">您的企业互联网设计方案专家</p>
+            <img src="./static/images/news.png" alt="">
+            <p class="fs-12 fb">北京互联网建设创导品牌</p>
+        </div>
+        <div class="aside-right poa">
+          <a href="">
+            <img src="./static/images/10.png" alt="">
+          </a>
+        </div>
+        <div class="bottom poa"></div>
+      </div>
+    </div>
+    <!-- work -->
+    <div id=nav class="work-page news bk-c">
+      <div class="work-nav tac">
+        <ul class="dib work-nav-c fs-14 fb">
+          <!-- a 上加active 为当前选中态 -->
+          <li class="wnav "><a class="ts" href="#nav">全部</a></li>
+          <li class="wnav "><a class="ts" href="#nav">行业</a></li>
+          <li class="wnav "><a class="ts" href="#nav">公司</a></li>
+        </ul>
+      </div>
+      @@include('newList.html',{
+        "listClass":"news-page-l",
+        "size":8
+      })
+    </div>
+  @@include('footer.html',{
+    "footerClass":"subfooter"
+  })

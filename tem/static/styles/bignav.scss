@@ -1,0 +1,14 @@
+.bignav{
+  height: 170px;
+  .nav-list{
+    li{
+      float: left;
+      margin-right: 40px;
+      .nav-t-c{
+        height: 24px;
+        overflow: hidden;
+        line-height: 24px;
+      }
+    }
+  }
+}
